@@ -1,2 +1,2 @@
-# Docker-Practice-1
+# Docker-Labs
 A repository for Dockerfiles, custom images, and container experiments.
