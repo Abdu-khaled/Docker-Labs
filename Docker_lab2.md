@@ -19,7 +19,7 @@
 - create a dockerfile for the same app in smaller size using multi staging
 - Run a container from the new image
 
-![](file:///home/iturbo/Pictures/prob3.png)
+![](file:///home/iturbo/Desktop/Docker-Practice-1/pic/prob3.png)
 
 ![](file:///home/iturbo/Pictures/s-image.png)
 
