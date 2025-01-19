@@ -3,7 +3,7 @@
 - Create a dockerfile for nginx image with different html content and different nginx conf that listen to port 8080 instead of port 80 on the container
 - Run a container from the new image
 
-![](file:///home/iturbo/Pictures/prob1.png)
+![](./Pictures/prob1.png)
 
 ***
 ## Problem 2
@@ -11,7 +11,7 @@
 - Create a dockerfile to containerize a simple reactjs app
 - Run a container from the new image
 
-![](file:///home/iturbo/Pictures/prob2.png)
+![](./Pictures/prob2.png)
 
 ***
 ## Problem 3
@@ -19,9 +19,9 @@
 - create a dockerfile for the same app in smaller size using multi staging
 - Run a container from the new image
 
-![](file:///home/iturbo/Desktop/Docker-Practice-1/pic/prob3.png)
+![](./pic/prob3.png)
 
-![](file:///home/iturbo/Pictures/s-image.png)
+![](./Pictures/s-image.png)
 
 * The size of Docker image is smaller because it eliminates unnecessary intermediate build files and tools, it just take the bin files *
 
@@ -34,7 +34,7 @@
 - Run a container from the new image and test the 2 scenarios
 
 
-![](file:///home/iturbo/Pictures/prob4.png)
+![](./Pictures/prob4.png)
 
 ***
 
@@ -43,4 +43,4 @@
 
 - Push the images created in Problem #(3 & 4) into your docker hub repo (hint: create an account in dockerhub and use `docker login` command in your terminal)
 
-![](file:///home/iturbo/Pictures/prob5.png)
+![](./Pictures/prob5.png)
