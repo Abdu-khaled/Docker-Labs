@@ -1,0 +1,46 @@
+## Problem 1
+
+- Create a dockerfile for nginx image with different html content and different nginx conf that listen to port 8080 instead of port 80 on the container
+- Run a container from the new image
+
+![](file:///home/iturbo/Pictures/prob1.png)
+
+***
+## Problem 2
+
+- Create a dockerfile to containerize a simple reactjs app
+- Run a container from the new image
+
+![](file:///home/iturbo/Pictures/prob2.png)
+
+***
+## Problem 3
+
+- create a dockerfile for the same app in smaller size using multi staging
+- Run a container from the new image
+
+![](file:///home/iturbo/Pictures/prob3.png)
+
+![](file:///home/iturbo/Pictures/s-image.png)
+
+* The size of Docker image is smaller because it eliminates unnecessary intermediate build files and tools, it just take the bin files *
+
+
+***
+
+## Problem 4 
+
+- Create a dockerfile for ubuntu image which sleeps according to the given number in the docker command (hint: CMD override) or sleeps by default for 15 sec (if not overridden by the user)
+- Run a container from the new image and test the 2 scenarios
+
+
+![](file:///home/iturbo/Pictures/prob4.png)
+
+***
+
+## Problem 5
+
+
+- Push the images created in Problem #(3 & 4) into your docker hub repo (hint: create an account in dockerhub and use `docker login` command in your terminal)
+
+![](file:///home/iturbo/Pictures/prob5.png)
