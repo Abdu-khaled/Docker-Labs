@@ -3,7 +3,7 @@
 - Create a dockerfile for nginx image with different html content and different nginx conf that listen to port 8080 instead of port 80 on the container
 - Run a container from the new image
 
-![](./Pictures/prob1.png)
+![](./pic/prob1.png)
 
 ***
 ## Problem 2
@@ -11,7 +11,7 @@
 - Create a dockerfile to containerize a simple reactjs app
 - Run a container from the new image
 
-![](./Pictures/prob2.png)
+![](./pic/prob2.png)
 
 ***
 ## Problem 3
@@ -21,7 +21,7 @@
 
 ![](./pic/prob3.png)
 
-![](./Pictures/s-image.png)
+![](./pic/s-image.png)
 
 * The size of Docker image is smaller because it eliminates unnecessary intermediate build files and tools, it just take the bin files *
 
@@ -34,7 +34,7 @@
 - Run a container from the new image and test the 2 scenarios
 
 
-![](./Pictures/prob4.png)
+![](./pic/prob4.png)
 
 ***
 
@@ -43,4 +43,4 @@
 
 - Push the images created in Problem #(3 & 4) into your docker hub repo (hint: create an account in dockerhub and use `docker login` command in your terminal)
 
-![](./Pictures/prob5.png)
+![](./pic/prob5.png)
